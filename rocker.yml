@@ -1,0 +1,28 @@
+---
+- name: Run Custom Docker Image
+  hosts: localhost
+  gather_facts: false
+
+  tasks:
+    - name: Clone GitHub repository
+      git:
+        repo: https://github.com/vusaverse/docker-rocker.git
+        dest: /tmp/custom-rocker
+      register: git_result
+
+    - name: Execute bash script
+      shell: /tmp/custom-rocker/test_run.sh
+      args:
+        executable: /bin/bash
+      register: script_result
+      become: true
+
+    - name: Print script execution result
+      debug:
+        var: script_result.stdout
+
+    - name: Open browser on localhost:8787
+      uri:
+        url: http://localhost:8787
+      delegate_to: localhost
+      ignore_errors: true
