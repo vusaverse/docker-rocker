@@ -16,6 +16,11 @@
         dest: /tmp/custom-rocker
       register: git_result
 
+    - name: Change permission of bash script
+      file:
+        path: /tmp/custom-rocker/test_run.sh
+        mode: u+x
+
     - name: Execute bash script
       shell: /tmp/custom-rocker/test_run.sh
       args:
