@@ -1372,17 +1372,6 @@
       "Repository": "CRAN",
       "Hash": "f7736a18de97dea803bde0a2daaafb27"
     },
-    "findR": {
-      "Package": "findR",
-      "Version": "0.2.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "pdftools",
-        "stringr"
-      ],
-      "Hash": "60feb988c23b8d13c3fed92d3c288fdb"
-    },
     "flashClust": {
       "Package": "flashClust",
       "Version": "1.01-2",
@@ -2869,17 +2858,6 @@
         "parallel"
       ],
       "Hash": "3b5b99f4d3f067bb9c1d59317d071370"
-    },
-    "pdftools": {
-      "Package": "pdftools",
-      "Version": "3.3.3",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "Rcpp",
-        "qpdf"
-      ],
-      "Hash": "8072f379ae37e914e5adc0a3fd8c513c"
     },
     "pillar": {
       "Package": "pillar",
