@@ -721,30 +721,6 @@
       ],
       "Hash": "9b2191ede20fa29828139b9900922e51"
     },
-    "car": {
-      "Package": "car",
-      "Version": "3.1-2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "MASS",
-        "R",
-        "abind",
-        "carData",
-        "grDevices",
-        "graphics",
-        "lme4",
-        "mgcv",
-        "nlme",
-        "nnet",
-        "pbkrtest",
-        "quantreg",
-        "scales",
-        "stats",
-        "utils"
-      ],
-      "Hash": "839b351f31d56e0147439eb22c00a66a"
-    },
     "carData": {
       "Package": "carData",
       "Version": "3.0-5",
@@ -2408,32 +2384,6 @@
       ],
       "Hash": "09e504a5f457860795f70739bba15a3e"
     },
-    "lme4": {
-      "Package": "lme4",
-      "Version": "1.1-34",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "MASS",
-        "Matrix",
-        "R",
-        "Rcpp",
-        "RcppEigen",
-        "boot",
-        "graphics",
-        "grid",
-        "lattice",
-        "methods",
-        "minqa",
-        "nlme",
-        "nloptr",
-        "parallel",
-        "splines",
-        "stats",
-        "utils"
-      ],
-      "Hash": "73ed88b282d27d4cf3d89b744aa21217"
-    },
     "lmom": {
       "Package": "lmom",
       "Version": "2.9",
@@ -2660,16 +2610,6 @@
       ],
       "Hash": "0984ce8da8da9ead8643c5cbbb60f83e"
     },
-    "nloptr": {
-      "Package": "nloptr",
-      "Version": "2.0.3",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "testthat"
-      ],
-      "Hash": "277c67a08f358f42b6a77826e4492f79"
-    },
     "nnet": {
       "Package": "nnet",
       "Version": "7.3-19",
@@ -2840,24 +2780,6 @@
         "utils"
       ],
       "Hash": "8551bfc8d1d6ab813e2e5c8917268cd4"
-    },
-    "pbkrtest": {
-      "Package": "pbkrtest",
-      "Version": "0.5.2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "MASS",
-        "Matrix",
-        "R",
-        "broom",
-        "dplyr",
-        "lme4",
-        "methods",
-        "numDeriv",
-        "parallel"
-      ],
-      "Hash": "3b5b99f4d3f067bb9c1d59317d071370"
     },
     "pillar": {
       "Package": "pillar",
