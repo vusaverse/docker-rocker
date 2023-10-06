@@ -349,21 +349,6 @@
       ],
       "Hash": "1d6ed2d006d483f31c6d5531f3a39923"
     },
-    "RDCOMClient": {
-      "Package": "RDCOMClient",
-      "Version": "0.96-1",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteUsername": "omegahat",
-      "RemoteRepo": "RDCOMClient",
-      "RemoteRef": "master",
-      "RemoteSha": "c8f708a4ebdbead5ff9a319fe6db63732f2e53f0",
-      "Requirements": [
-        "methods"
-      ],
-      "Hash": "f5955ed5f83b5dac42dc19e178c50ff8"
-    },
     "ROCR": {
       "Package": "ROCR",
       "Version": "1.0-11",
