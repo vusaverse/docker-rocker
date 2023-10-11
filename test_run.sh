@@ -14,8 +14,7 @@ docker build -t custom-rocker-example .
 
 open http://localhost:8787
 
-docker run -e PASSWORD="$1" -p 8787:8787 \
+docker run -e PASSWORD="rstudio" -p 8787:8787 \
     -v "$(pwd)":/home/rstudio/output \
-    -v /home/USERNAME/Documents:/home/rstudio/Documents \
     --rm custom-rocker-example
 
