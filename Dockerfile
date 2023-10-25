@@ -2,6 +2,7 @@ FROM rocker/tidyverse:latest
 
 COPY .config /home/rstudio/.config
 COPY .Rprofile /home/rstudio/
+COPY renv.lock /home/rstudio/renv
 COPY renv.lock renv.lock
 
 USER root
